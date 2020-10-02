@@ -1,24 +1,29 @@
 .container {
-  margin-top: 2%;
   background-color: white;
+}
+
+.top-header {
+  margin-top: 0;
+  line-height: normal;
 }
 
 #logo-top {
   width: 30%;
   position: relative;
   left: 35%;
-  top: 1.2rem;
+  margin-top: 0;
 }
 
 
 li {
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 .nav-left, .nav-right {
   float: right;
+  margin-top: 0;
 }
 
 #b-dx {
@@ -53,13 +58,24 @@ li {
 }
 
 #apple {
- height: 60px;
+ height: 5%;
  position: absolute;
- left: 750px;
+ left: 32%;
+ margin-left: 1%;
+ text-align: center;
 }
 
 #android {
-  height: 60px;
+  height: 5%;
   position: absolute;
-  left: 980px;
+  left: 52%;
+  text-align: center;
+}
+
+.fa-bars {
+  color: black;
+  float: right;
+  position: relative;
+  left: 15%;
+  bottom: 1rem;
 }
