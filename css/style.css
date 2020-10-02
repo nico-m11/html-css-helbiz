@@ -1,1 +1,26 @@
+.top-header {
+  margin-top: 2%;
+}
 
+#logo-top {
+  width: 30%;
+  position: relative;
+  left: 35%;
+  top: 1.2rem;
+}
+
+
+li {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 1rem;
+}
+
+.nav-left, .nav-right {
+  float: right;
+}
+
+#b-dx {
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
