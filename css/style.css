@@ -1,8 +1,6 @@
 .container {
   margin-top: 2%;
   background-color: white;
-  position: fixed;
-  width: 100%;
 }
 
 #logo-top {
@@ -28,12 +26,15 @@ li {
   padding-right: 10px;
 }
 
+#m-dx {
+  margin-left: 3px;
+}
+
 .bg-img {
   background-image: url("../img/header.jpg");
   background-size: cover;
   background-position: center;
   height: 500px;
-  width: 1410px;
 }
 
 #title-img {
@@ -48,5 +49,17 @@ li {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: white;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+}
+
+#apple {
+ height: 60px;
+ position: absolute;
+ left: 750px;
+}
+
+#android {
+  height: 60px;
+  position: absolute;
+  left: 980px;
 }
