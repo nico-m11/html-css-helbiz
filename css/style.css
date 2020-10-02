@@ -1,5 +1,8 @@
-.top-header {
+.container {
   margin-top: 2%;
+  background-color: white;
+  position: fixed;
+  width: 100%;
 }
 
 #logo-top {
@@ -23,4 +26,27 @@ li {
 #b-dx {
   border-right: 1px solid black;
   padding-right: 10px;
+}
+
+.bg-img {
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 1410px;
+}
+
+#title-img {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  margin-top: 150px;
+  font-size: 3rem;
+}
+
+#p-img {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 1.1rem;
 }
