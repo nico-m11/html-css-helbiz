@@ -1,7 +1,7 @@
 .container {
   background-color: white;
 }
-
+/*header style */
 .top-header {
   margin-top: 0;
   line-height: normal;
@@ -18,7 +18,8 @@
 li {
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
-  margin-right: 0.5rem;
+  margin-right: 0.7rem;
+  font-size: 11px;
 }
 
 .nav-left, .nav-right {
@@ -32,7 +33,7 @@ li {
 }
 
 #m-dx {
-  margin-left: 3px;
+  margin-right: 20px;
 }
 
 .bg-img {
@@ -71,7 +72,7 @@ li {
   left: 52%;
   text-align: center;
 }
-
+/* barra view smartphone and tablet */
 .fa-bars {
   color: black;
   float: right;
@@ -79,3 +80,56 @@ li {
   left: 15%;
   bottom: 1rem;
 }
+
+/* first main style */
+
+p, h1, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.raw-left, .raw-right {
+  display: inline;
+  background-color: #F7FAFA;
+  text-align: center;
+
+}
+.raw-left {
+  margin-left: 8%;
+  margin-right: 3%;
+}
+
+#go {
+  height: 350px;
+}
+
+#bike {
+  height: 350px;
+}
+
+/* second main */
+#gif {
+  height: 400px;
+  position: relative;
+  left: 45%;
+  top: 10rem;
+}
+
+.nonno {
+  background-image: url("../img/nonno.jpg");
+}
+
+
+.question-one {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.question-two {
+  float: right;
+  position: relative;
+  left: 5rem;
+  top: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* main two */
